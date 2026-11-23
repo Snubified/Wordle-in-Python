@@ -1,1 +1,2 @@
-To play, open wordle.py and run the code in an IDE
+To play, open the entire "Wordle (2026)" folder in an IDE.
+Now run wordle.py.
