@@ -85,7 +85,7 @@ while attempts > 0:
     print("Attempts remaining:", attempts)
     print()
 
-if attempts == 0:
+if attempts == 0 and guess != secret_word:
     print("GAME OVER")
     print("The correct word was:", secret_word)
 
