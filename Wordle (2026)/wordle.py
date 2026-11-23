@@ -72,7 +72,7 @@ while attempts > 0:
                 print(result, end="")
             print()  # moves to the next line after finishing a row
     alphabet_output += alphabet
-    alphabet_output_sorted = sorted(alphabet_output)
+    alphabet_output_sorted = sorted(set(alphabet_output))
     print(f"Used: {', '.join(alphabet_output_sorted)}")
     attempts -= 1
 
